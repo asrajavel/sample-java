@@ -14,6 +14,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Slf4j
 public class Main implements ApplicationRunner {
+    /*
+    in this example we don't subclass the Handler, we just use it as is,
+    all the logic is only injected, favouring composition over inheritance
+     */
     private final RequestHandler<Cat> requestHandlerCat;
     private final RequestHandler<Dog> requestHandlerDog;
 
