@@ -20,6 +20,8 @@ public class Main implements ApplicationRunner {
      */
     private final RequestHandler<Cat> requestHandlerCat;
     private final RequestHandler<Dog> requestHandlerDog;
+//    if you do this then spring will not be able to inject
+//    private final RequestHandler<String> requestHandlerString;
 
     @Autowired
     public Main(RequestHandler<Cat> requestHandlerCat, RequestHandler<Dog> requestHandlerDog) {
