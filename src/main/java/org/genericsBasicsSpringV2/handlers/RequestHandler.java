@@ -8,7 +8,8 @@ import org.springframework.stereotype.Component;
 //@Component
 //using component will give this error:
 /*
-Parameter 0 of constructor in org.genericsBasicsSpringV2.handlers.RequestHandler required a single bean, but 2 were found:
+Parameter 0 of constructor
+in org.genericsBasicsSpringV2.handlers.RequestHandler required a single bean, but 2 were found:
 	- catDBWriter: defined in file [/Users/rajavel.as/shieldProjects/sample/target/classes/org/genericsBasicsSpringV2/db/CatDBWriter.class]
 	- dogDBWriter: defined in file [/Users/rajavel.as/shieldProjects/sample/target/classes/org/genericsBasicsSpringV2/db/DogDBWriter.class]
  */
