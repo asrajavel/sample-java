@@ -1,0 +1,6 @@
+dependencies:
+- name: mychart
+  repository: file://../mychart
+  version: 0.1.0
+digest: sha256:445d500807fe6740987b1a81bd24a006f6b08f4a136c7a5de0a302de3d3d3606
+generated: "2024-04-08T16:50:03.829353+05:30"

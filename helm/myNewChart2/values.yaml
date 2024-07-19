@@ -1,0 +1,8 @@
+mychart:
+  extraContainers:
+    - name: alpine-echo
+      image: alpine
+      command: [ "sh", "-c", "while true; do echo 'Hello from Alpine!'; sleep 10; done" ]
+
+  specterContainer: true
+  specterContainerName: rajavel
